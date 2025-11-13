@@ -56,8 +56,8 @@
                 administrativos que automatizam processos e reduzem custos para pequenas e médias empresas.</p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
                 <a href="#contato"
-                    class="px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition">Solicitar
-                    Orçamento</a>
+                    class="px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition">Vamos
+                    conversar?</a>
                 <a href="#servicos"
                     class="px-8 py-4 border border-gray-700 text-gray-200 rounded-lg font-semibold hover:bg-gray-800 transition">Ver
                     Serviços</a>
@@ -72,7 +72,8 @@
                 <h2 class="text-3xl md:text-4xl font-bold mb-6">Sobre Mim</h2>
                 <p class="text-gray-400 mb-4">Sou desenvolvedor Full Stack especializado em <strong>PHP 8+</strong>,
                     <strong>Laravel</strong> e <strong>JavaScript</strong>. Ajudando pequenas e médias empresas a
-                    transformar planilhas e processos manuais em sistemas automatizados e de fácil manutenção.</p>
+                    transformar planilhas e processos manuais em sistemas automatizados e de fácil manutenção.
+                </p>
                 <p class="text-gray-400 mb-4">Tenho experiência em modernização de sistemas legados, otimização de
                     performance e estruturação de ambientes de produção com Docker, CI/CD e VPS.</p>
                 <p class="text-gray-400 mb-6">Meu foco é entregar soluções simples, escaláveis e que gerem valor real
@@ -108,7 +109,7 @@
   </section> -->
 
     <!-- Serviços -->
-    <section id="servicos" class="py-24 bg-gray-900 border-t border-gray-800">
+    <section id="servicos" class="py-12 bg-gray-900 border-t border-gray-800">
         <div class="max-w-6xl mx-auto px-6 text-center">
             <h2 class="text-3xl md:text-4xl font-bold mb-12">Serviços</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-left">
@@ -139,26 +140,129 @@
     <!-- Cases -->
     <section id="cases" class="py-24 bg-gray-800 border-t border-gray-700">
         <div class="max-w-6xl mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Cases Reais e Resultados</h2>
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="p-6 border border-gray-700 rounded-xl bg-gray-900 hover:shadow-md transition">
-                    <h3 class="text-xl font-semibold mb-2 text-blue-400">Sistema de Clipping de Notícias</h3>
-                    <p class="text-gray-400 text-sm mb-3">Migração Laravel 6→10 e automação de coleta de notícias via
-                        RSS.</p>
+            <h2 class="text-3xl md:text-4xl font-bold mb-14 text-center">
+                Cases Reais e Resultados
+            </h2>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-10">
+
+                <!-- Case: Clipping -->
+                <div
+                    class="group bg-gray-800 border border-gray-700 rounded-2xl p-6 hover:border-blue-500 hover:shadow-lg transition-all duration-300">
+                    <div class="flex items-center gap-3 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="w-6 h-6 text-blue-400 group-hover:text-blue-300 transition" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M7 8h10M7 12h10m-7 4h7m4-10V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-1" />
+                        </svg>
+                        <h3 class="text-xl font-semibold text-blue-400">Sistema de Clipping de Notícias</h3>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-4 leading-relaxed">
+                        Migração <strong>Laravel 6→10</strong> e automação de coleta de notícias via RSS, com
+                        processamento agendado e relatórios dinâmicos.
+                    </p>
                     <p class="text-green-400 font-semibold text-sm">Resultado: +60% produtividade</p>
+
+                    <a href="https://degage.com.br/clipagem/" target="_blank"
+                        class="pt-4 inline-flex items-center gap-2 text-blue-400 text-sm font-medium hover:underline transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M6 2h7l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5.5L13 3.5z" />
+                        </svg>
+                        Ver
+                    </a>
                 </div>
-                <div class="p-6 border border-gray-700 rounded-xl bg-gray-900 hover:shadow-md transition">
-                    <h3 class="text-xl font-semibold mb-2 text-blue-400">Sistema de Controle de RH</h3>
-                    <p class="text-gray-400 text-sm mb-3">Sistema completo para 300+ usuários com módulos de obras e
-                        frota.</p>
+
+                <!-- Case: RH -->
+                <div
+                    class="group bg-gray-800 border border-gray-700 rounded-2xl p-6 hover:border-blue-500 hover:shadow-lg transition-all duration-300">
+                    <div class="flex items-center gap-3 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="w-6 h-6 text-blue-400 group-hover:text-blue-300 transition" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 20h5v-2a4 4 0 0 0-4-4h-4a4 4 0 0 0-4 4v2h5m-6 0H4v-2a4 4 0 0 1 4-4h1M16 3.13a4 4 0 1 1-8 0 4 4 0 0 1 8 0z" />
+                        </svg>
+                        <h3 class="text-xl font-semibold text-blue-400">
+                            <a href="https://degage.com.br/clipagem/">
+                                Sistema de Controle de RH
+                            </a>
+                        </h3>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-4 leading-relaxed">
+                        Sistema completo para <strong>300+ usuários</strong> com módulos de obras, frota, ponto e folha
+                        de pagamento totalmente integrados.
+                    </p>
                     <p class="text-green-400 font-semibold text-sm">Resultado: automação total e relatórios integrados
                     </p>
+
+                    <a href="https://etsconstrucoes.com/" target="_blank"
+                        class="pt-4 inline-flex items-center gap-2 text-blue-400 text-sm font-medium hover:underline transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M6 2h7l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5.5L13 3.5z" />
+                        </svg>
+                        Ver
+                    </a>
                 </div>
-                <div class="p-6 border border-gray-700 rounded-xl bg-gray-900 hover:shadow-md transition">
-                    <h3 class="text-xl font-semibold mb-2 text-blue-400">Regula RN (Saúde Pública)</h3>
-                    <p class="text-gray-400 text-sm mb-3">Funcionalidade de distribuição automatizada com regras
-                        parametrizáveis.</p>
+
+                <!-- Case: Regula RN -->
+                <div
+                    class="group bg-gray-800 border border-gray-700 rounded-2xl p-6 hover:border-blue-500 hover:shadow-lg transition-all duration-300">
+                    <div class="flex items-center gap-3 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="w-6 h-6 text-blue-400 group-hover:text-blue-300 transition" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 17v-2a2 2 0 1 1 4 0v2m-7 4h10a2 2 0 0 0 2-2V9l-6-6H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2z" />
+                        </svg>
+                        <h3 class="text-xl font-semibold text-blue-400">
+                            Regula RN (Saúde Pública)
+                        </h3>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-4 leading-relaxed">
+                        Funcionalidade de distribuição automatizada de solicitações médicas com regras parametrizáveis e
+                        auditoria de fila.
+                    </p>
                     <p class="text-green-400 font-semibold text-sm">Resultado: -80% esforço operacional</p>
+
+                    <a href="https://regulacirurgia.saude.rn.gov.br/index.php?class=LoginForm" target="_blank"
+                        class="pt-4 inline-flex items-center gap-2 text-blue-400 text-sm font-medium hover:underline transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M6 2h7l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5.5L13 3.5z" />
+                        </svg>
+                        Ver
+                    </a>
+                </div>
+
+                <!-- Case: SADP -->
+                <div
+                    class="group bg-gray-800 border border-gray-700 rounded-2xl p-6 hover:border-blue-500 hover:shadow-lg transition-all duration-300">
+                    <div class="flex items-center gap-3 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="w-6 h-6 text-blue-400 group-hover:text-blue-300 transition" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                        <h3 class="text-xl font-semibold text-blue-400">SADP — Sistema de Acompanhamento de Demandas
+                            Públicas</h3>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-4 leading-relaxed">
+                        Plataforma desenvolvida para registro, controle e transparência de demandas públicas com painel
+                        administrativo, autenticação e histórico completo.
+                    </p>
+                    <a href="https://drive.google.com/file/d/1lqs7eyAFvYyKkbLlTvamcNsl8bSvsXxt/view?usp=drive_link"
+                        target="_blank"
+                        class="pt-4 inline-flex items-center gap-2 text-blue-400 text-sm font-medium hover:underline transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M6 2h7l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5.5L13 3.5z" />
+                        </svg>
+                        Ver Certificação de Registro
+                    </a>
                 </div>
             </div>
         </div>
@@ -168,13 +272,75 @@
     <section id="contato" class="py-24 bg-gradient-to-br from-gray-900 to-gray-800 text-center">
         <div class="max-w-3xl mx-auto px-6">
             <h2 class="text-3xl md:text-4xl font-bold mb-6">Vamos Conversar?</h2>
-            <p class="text-gray-400 mb-8">Tem um projeto em mente ou precisa de ajuda para modernizar um sistema? Entre
-                em contato e vamos encontrar a melhor solução.</p>
-            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <p class="text-gray-400 mb-8">
+                Tem um projeto em mente ou precisa de ajuda para modernizar um sistema? Entre em contato e vamos
+                encontrar a melhor solução.
+            </p>
+
+            <!-- Botões de contato -->
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-10">
                 <a href="mailto:italonccosta@gmail.com"
-                    class="px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition">italonccosta@gmail.com</a>
+                    class="px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition">
+                    italonccosta@gmail.com
+                </a>
                 <a href="https://wa.me/5585981630704" target="_blank"
-                    class="px-8 py-4 border border-green-700 text-green-200 rounded-lg font-semibold hover:bg-green-800 transition">WhatsApp</a>
+                    class="px-8 py-4 border border-green-700 text-green-200 rounded-lg font-semibold hover:bg-green-800 transition">
+                    WhatsApp
+                </a>
+            </div>
+
+            <!-- Redes e documentos -->
+            <div class="flex flex-wrap justify-center gap-6 text-gray-300 text-sm">
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/italo-ncc/" target="_blank"
+                    class="flex items-center text-base gap-2 hover:text-blue-400 transition">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                        <path
+                            d="M19 0H5C2.24 0 0 2.24 0 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5zM7.09 19H4.45V9h2.64v10zM5.77 7.59c-.85 0-1.55-.7-1.55-1.55S4.92 4.5 5.77 4.5 7.32 5.2 7.32 6.04c0 .85-.7 1.55-1.55 1.55zM20 19h-2.64v-4.93c0-1.18-.02-2.7-1.64-2.7-1.65 0-1.9 1.29-1.9 2.61V19h-2.64V9h2.54v1.37h.04c.35-.67 1.2-1.37 2.47-1.37 2.64 0 3.13 1.74 3.13 4V19z" />
+                    </svg>
+                    LinkedIn
+                </a>
+
+                <!-- GitHub -->
+                <a href="https://github.com/italonccosta" target="_blank"
+                    class="flex items-center text-base gap-2 hover:text-gray-100 transition">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                        <path
+                            d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.43 7.86 10.96.57.11.78-.25.78-.55 0-.27-.01-.97-.02-1.9-3.2.69-3.88-1.54-3.88-1.54-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.74 2.67 1.24 3.32.95.1-.74.4-1.24.72-1.52-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.3 1.18-3.12-.12-.29-.51-1.45.11-3.03 0 0 .96-.31 3.15 1.19a10.9 10.9 0 0 1 2.87-.39c.97 0 1.95.13 2.87.39 2.19-1.5 3.15-1.19 3.15-1.19.63 1.58.23 2.74.11 3.03.74.82 1.18 1.86 1.18 3.12 0 4.43-2.71 5.41-5.29 5.69.41.35.77 1.03.77 2.08 0 1.5-.01 2.7-.01 3.07 0 .3.21.66.79.55A10.99 10.99 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z" />
+                    </svg>
+                    GitHub
+                </a>
+
+                <!-- Currículo -->
+                <a href="https://drive.google.com/file/d/1bRo6iDmIvGxakkBe1-PCUq-AQXkksLUj/view?usp=drive_link"
+                    target="_blank" class="flex items-center text-base gap-2 hover:text-blue-400 transition">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                        <path d="M6 2h7l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM13 3.5V9h5.5L13 3.5z" />
+                    </svg>
+                    Currículo
+                </a>
+
+                <!-- Certificação -->
+                <!-- <a href="https://drive.google.com/file/d/1lqs7eyAFvYyKkbLlTvamcNsl8bSvsXxt/view?usp=drive_link"
+                    target="_blank" class="flex items-center text-base gap-2 hover:text-blue-400 transition">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                        <path
+                            d="M20 2H4a2 2 0 0 0-2 2v14l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM8 11H6V9h2v2zm0-4H6V5h2v2zm4 4h-2V9h2v2zm0-4h-2V5h2v2zm4 4h-2V9h2v2zm0-4h-2V5h2v2zM6 17v3l3-3H6z" />
+                    </svg>
+                    Certificação do Projeto
+                </a> -->
+
+                <!-- Diploma -->
+                <a href="https://drive.google.com/file/d/1j4xnKXJajKA1e9K3JEfZUUTF3nQ4MOoP/view?usp=drive_link"
+                    target="_blank" class="flex items-center text-base gap-2 hover:text-blue-400 transition">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-5 h-5">
+                        <path d="M12 2 1 7l11 5 9-4.09V17h2V7L12 2z" />
+                        <path d="M11 12.08 3 8.4v6.34L11 18l8-3.26V8.4l-8 3.68z" />
+                    </svg>
+                    Diploma
+                </a>
+
             </div>
         </div>
     </section>
