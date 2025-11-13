@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://italonccosta.github.io/italo.dev/sitemap.xml
